@@ -16,16 +16,23 @@ The contents of the table should abide by the following rules:
 ## Simple examples
 * 1. Just input specal symbol
 > aleph,ℵ
+
 When you press Oem5 key and input "aleph" then press space bar,you will input "ℵ".
 * 2. Open other program
 > chrome,\run C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
 If you just want to open a program without arguments of start info.You can use the above format.
+
 > partitionC,\run explorer.exe| c:
+
 Remember,the space before arguments of start info "c:" is important.Is "| c:" but not "|c:".
 * 3. Paste code fragment
 > myCode,\code D:\1.ts
+
 If the source code file is in a directory at the same level as Conversion.exe,you can also use under format.
+
 > myCode,\code 1.ts
+
 The space before the path of source code file is important,too.
 
 ## Final
